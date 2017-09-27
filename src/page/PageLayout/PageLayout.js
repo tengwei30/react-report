@@ -1,11 +1,11 @@
 /***
  * Created by xiaosong 2017/09/15
  * **/
-import React from 'react'
-import PropTypes from 'prop-types'
-import { inject, observer } from 'mobx-react'
-import { Layout, Menu, Icon } from 'antd'
-import './pageLayout.css'
+
+import React from 'react';
+import { inject, observer } from 'mobx-react';
+import { Layout, Menu, Icon } from 'antd';
+import './pageLayout.css';
 
 const { Header, Sider, Content } = Layout
 

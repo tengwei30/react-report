@@ -3,13 +3,14 @@
  * **/
 
 import React from 'react';
-
+import LoginSkip from 'LoginSkip.jsx';
 
 export default class Login extends React.Component {
     render() {
         return(
             <div>
-                Login
+                <h1>这是一个登录界面</h1>
+                <LoginSkip />
             </div>
         )
     }

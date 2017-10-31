@@ -3,7 +3,7 @@
  */
 
 import React from 'react'
-import { hashHistory, Router } from 'react-router'
+import { hashHistory, Router, Route } from 'react-router'
 import { observer } from 'mobx-react'
 import PropTypes from 'prop-types'
 import { Provider } from 'mobx-react'

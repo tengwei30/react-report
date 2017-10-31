@@ -31,10 +31,8 @@ export default class PageLayout extends React.Component {
     };
 
     onSkip = (item) => {    // 默认路由跳转
-        this.props.router.push({pathname:`report/${item.key}`});
+        this.props.router.push({pathname:`index/report/${item.key}`});
     }
-
-
     render () {
         const {children} = this.props;
         return (

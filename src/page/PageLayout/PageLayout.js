@@ -25,6 +25,10 @@ export default class PageLayout extends React.Component {
                     name: "Demo2",
                     icon: "video-camera",
                     id: "demo2"
+                }, {
+                    name: "Demo3",
+                    icon: "video-camera",
+                    id: "demo3" 
                 }]
             )
         },500)

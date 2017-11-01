@@ -11,7 +11,7 @@ import Login from '../page/Login';
 // 在这里面进行路由界面的添加
 
 const createRoutes = [{
-    path: '/login',
+    path: '/',
     component: Login,
 },{
     path: '/index',
@@ -22,16 +22,4 @@ const createRoutes = [{
         Report(),
     ]
 }];
-/*
-const createRoutes = () => ({
-    path: '/index',
-    component: PageLayout,  //
-    indexRoute: Home,   //home 界面
-    childRoutes: [
-        NoMatch(),
-        Report(),
-    ]
-});
-*/
-
 export default createRoutes;

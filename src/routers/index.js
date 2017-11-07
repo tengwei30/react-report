@@ -22,4 +22,5 @@ const createRoutes = [{
         Report(),
     ]
 }];
+
 export default createRoutes;
